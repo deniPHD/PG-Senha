@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+:root{
+    --cor-da-letra: rgb(0, 0, 0);
+    --cor-de-fundo: rgb(231, 192, 192);
+    --fundo-senha:rgb(235, 168, 168);
+    --fundo-texto:rgb(241, 171, 171);
+    --borda: rgb(255, 0, 0);
+    --fonte: "Sevillana";
+    --fonte2: "Acme";
+}
+body{
+    color: var(--cor-da-letra);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+    
+}
+
+.titulo-principal{
+    font-size: 65px;
+    text-align: center;
+}
+.titulo-secundario{
+    font-size: 25px;
+    font-family: var(--fonte2);
+    text-align: center;
+    
+}
+
+
+
