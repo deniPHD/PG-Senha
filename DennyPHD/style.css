@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+:root{
+    --cor-da-letra: rgb(0, 0, 0);
+    --cor-de-fundo: rgb(231, 192, 192);
+    --fundo-senha:rgb(235, 168, 168);
+    --fundo-texto:rgb(241, 171, 171);
+    --borda: rgb(255, 0, 0);
+    --fonte: "Acme";
+    --fonte2: "Acme";
+}
+body{
+    color: var(--cor-da-letra);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+    
+}
+
+.titulo-principal{
+    font-size: 65px;
+    text-align: center;
+}
+.conteudo{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 30px;
+}
+.titulo-secundario{
+    font-size: 25px;
+    font-family: var(--fonte2);
+    text-align: center;
+    
+}
+.conteudo-senha{
+    margin-top: 20px;
+    background-color: var(--fundo-senha);
+    border-radius: 35px;
+    padding: 40px;
+    border-bottom: 5px solid var(--borda);
+    font-size: 60px;
+    }
+    
+    #campo-senha{
+        background-color: var(--cor-da-letra);
+        color: var(--cor-do-titulo);
+        width: 80%;
+        font-size: 38px;
+        border-radius: 30px;
+    }
+    
+    #campo-senha:focus{
+        outline:none;
+        background-color: var(--fundo-campo);
+    }
+    
+    .parametro{
+        font-family: var(--fonte2);
+        font-size: 15px;
+        background-color: var(--fundo-texto);
+        border: 2px solid var(--borda);
+        margin-top: 20px;
+        padding: 20px;
+
+    }
+    .parametro-titulo{
+        font-family: var(--fonte2);
+        font-size: 30px;
+    }
+    .parametro-senha{
+        width: 50%;
+        margin: 0 auto;
+        }
+        .parametro-coluna-senha{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+.cheakbox{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+label{
+    cursor: pointer;
+    
+}
+
+.barra{
+background-color: #9efd8b;
+height: 20px;
+width: 95%;
+
+}
+
+.fraca{
+height: 20px;
+width: 20%;
+background-color: rgb(255, 0, 0);
+position:relative;
+bottom: 20px;
+}
+
+.média{ 
+    height: 20px;
+    width: 30%;
+    background-color: rgb(238, 255, 0);
+    position:relative;
+    bottom: 20px;
+    }
+
+.forte{ 
+    height: 20px;
+    width: 40%;
+    background-color: rgb(21, 255, 0);
+    position:relative;
+    bottom: 20px;
+ }
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
